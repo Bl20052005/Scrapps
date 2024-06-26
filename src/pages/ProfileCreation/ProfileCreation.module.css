@@ -1,0 +1,19 @@
+.first {
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: #0E1F7B;
+    color: white;
+}
+
+.field {
+    width: 90%;
+    height: 25px;
+    background-color: #070031;
+    color: white;
+    text-align: center;
+}

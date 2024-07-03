@@ -12,6 +12,10 @@ nav > ul{
     margin-block: 0;
     height: 100%;
 }
+li:hover{
+    color: rgb(103,104,202);
+    cursor: pointer;
+}
 ul{
     list-style-type: none;
 }

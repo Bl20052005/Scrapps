@@ -8,7 +8,7 @@ function App() {
     const [current, setCurrent] = useState('main');
     return (
         <div>
-            <Header></Header>
+            <Header setCurrent={setCurrent}></Header>
             {current == 'main' && <Main />}
             {current == 'matchmake' && <Matchmake />}
             {current == 'profile' && <Profile />}

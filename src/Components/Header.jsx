@@ -1,9 +1,10 @@
 import styles from './Header.module.css'
 import MenuDirectories from './MenuDirectories'
-function Header(){
+function Header(props){
+    console.log(props)
     return(
         <header>
-            <MenuDirectories></MenuDirectories>
+            <MenuDirectories setCurrent={props.setCurrent}></MenuDirectories>
         </header>
         
     )

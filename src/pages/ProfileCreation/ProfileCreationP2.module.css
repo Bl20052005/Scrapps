@@ -1,0 +1,46 @@
+.first {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background-color: #0e1f7b;
+  color: white;
+}
+
+.button {
+  float: left;
+  list-style: none;
+  width: 100px;
+  height: 40px;
+  background-color: #070031;
+  color: white;
+  text-align: center;
+}
+
+.buttons {
+  li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+  }
+  :hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #27acc0;
+  }
+}
+
+.nextButton {
+  float: left;
+  list-style: none;
+  width: 100px;
+  height: 40px;
+  background-color: #070031;
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+}
